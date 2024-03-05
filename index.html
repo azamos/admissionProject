@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>File Uploader</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body style="font-family: Hanken Grotesk;">
+    <div class="AppContainer">
+      <div class="App">
+        <div class="FileUploaderInterface Purple-bg flex-col">
+          <div class="flex-row" style="color: #bfbef6;">
+            <h1>Files Uploader</h1>
+          </div>
+          <div class="flex-row">
+            <button class="upload_btn"><h2><b>Upload File</b></h2></button>
+          </div>
+          <footer
+            class="flex-row"
+            style="color: #bfbef6; word-wrap: break-word; text-align: center"
+          >
+            <p>Once you choose a file, it will be uploaded automatically</p>
+          </footer>
+        </div>
+        <div class="Summary flex-col">
+          <div class="flex-row" style="color: #bfbef6">
+            <h1 style="color: black;">Summary</h1>
+          </div>
+          <div class="Summary-item LightRedBG" style="color: hsl(0, 100%, 67%);background-color: #fef5f6;">
+            <div class="flex-row-space">
+              <img src="./assets/images/icon-reaction.svg" />
+              Files
+            </div>
+            <span style="color: black;"><b>5</b></span>
+          </div>
+          <div class="Summary-item LightYellowBG" style="color: hsl(39, 100%, 56%)">
+            <div class="flex-row-space">
+              <img src="./assets/images/icon-memory.svg" /> Storage
+            </div>
+            <span style="color: black;"><b>17</b> MB</span>
+          </div>
+          <div class="Summary-item LightGreenBG" style="color: hsl(166, 100%, 37%)">
+            <div class="flex-row-space">
+              <img src="./assets/images/icon-verbal.svg" />
+              Free Space
+            </div>
+            <span style="color: black;"><b>83</b> MB</span>
+          </div>
+          <div class="Summary-item LightPurpleBG" style="color: hsl(234, 85%, 45%)">
+            <div class="flex-row-space">
+              <img src="./assets/images/icon-visual.svg" />
+              Hidden Files
+            </div>
+            <span style="color: black;"><b>2</b> / 5</span>
+          </div>
+          <div class="flex-row">
+            <btn class="continue_btn">Continue</btn>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

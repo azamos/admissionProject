@@ -1,0 +1,96 @@
+.FileUploaderInterface{
+    background-color: hsla(256, 72%, 46%, 1);
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Summary{
+    width: 50%;
+    height: 100%;
+    /* padding: 10%; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    box-shadow: 1px 7px 14px #dedede ;
+}
+.AppContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.upload_btn{
+    border-radius: 100%;
+    width: 24vmin;
+    height: 24vmin;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    color: white;
+    border: none;
+
+}
+.continue_btn{
+    border-radius: 50px;
+    width: 30vmin;
+    height: 5vmin;
+    background-color: #343b58;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.Summary-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.spaced{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.Purple-bg{
+    /* background-color:hsl(252, 100%, 67%) ; */
+    background: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.LightGreenBG{
+    background-color: #f2fbfa;
+}
+.LightYellowBG{
+    background-color: #fffbf2;
+}
+.LightPurpleBG{
+    background-color: #f3f3fd;
+}
+.LightRedBG{
+    background-color: #fef5f6;
+}
